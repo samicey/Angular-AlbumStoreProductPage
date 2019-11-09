@@ -1,8 +1,6 @@
 import { Injectable } from '@angular/core';
 import {Http, Response} from '@angular/http';
 
-import 'rxjs/add/operator/map';
-
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
 
@@ -22,3 +20,6 @@ export class ProductDescriptionComponent implements OnInit {
   }
 
 }
+
+
+  
