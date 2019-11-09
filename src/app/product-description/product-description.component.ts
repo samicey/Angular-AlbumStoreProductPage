@@ -1,5 +1,3 @@
-import { Injectable } from '@angular/core';
-import {Http, Response} from '@angular/http';
 
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../product.service';
